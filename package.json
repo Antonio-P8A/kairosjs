@@ -1,5 +1,5 @@
 {
-  "name": "@ajcode/kairosjs",
+  "name": "@anton_8a/kairosjs",
   "version": "1.0.0",
   "description": "Librería para el manejo de fechas y horas",
   "main": "src/index.js",
