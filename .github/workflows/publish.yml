@@ -27,6 +27,11 @@ jobs:
           npm run lint || echo "Lint errors, continue anyway"
           npm test || echo "Test errors, continue anyway"
 
+      - name: Configure Git identity
+        run: |
+          git config user.name "Antonio Peña"
+          git config user.email "ap.ochoa89@gmail.com"
+
       - name: Bump version
         run: npm version patch -m "Automated version bump to %s"
 
