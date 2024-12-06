@@ -16,8 +16,8 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '22.9.0'
-          registry-url: 'https://registry.npmjs.org'
+          node-version: "22.9.0"
+          registry-url: "https://registry.npmjs.org"
 
       - name: Install dependencies
         run: npm install
@@ -31,6 +31,9 @@ jobs:
         run: |
           git config user.name "Antonio Peña"
           git config user.email "ap.ochoa89@gmail.com"
+
+      - name: Bump version
+        run: npm version patch -m "Automated version bump to %s"
 
       - name: Publish to npm
         env:
