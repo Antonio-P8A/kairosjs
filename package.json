@@ -1,5 +1,5 @@
 {
-  "name": "@ajcode/kairosjs",
+  "name": "@ajcode/datetime",
   "version": "1.0.0",
   "description": "Librería para el manejo de fechas y horas",
   "main": "src/index.js",
@@ -26,11 +26,5 @@
   "bugs": {
     "url": "https://github.com/Antonio-P8A/kairosjs/issues"
   },
-  "homepage": "https://github.com/Antonio-P8A/kairosjs#readme",
-  "files": [
-    "src",
-    "LICENSE",
-    "README.md",
-    "package.json"
-  ]
+  "homepage": "https://github.com/Antonio-P8A/kairosjs#readme"
 }
